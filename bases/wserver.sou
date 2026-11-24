@@ -1,0 +1,156 @@
+HTTP/1.0 200 OK
+Content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+            "http://www.w3.org/TR/REC-html40/loose.dtd">
+<head>
+  <!-- Copyright (c) 1998-2006 INRIA - GeneWeb -->
+  <!-- $Id: welcome.htm,v 5.1 2006-01-01 05:35:06 ddr Exp $ -->
+  <title>GeneWeb - Gwsetup</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"\>
+  <meta http-equiv="Content-Style-Type" content="text/css"\>
+  <meta name="robots" content="none"\>
+  <link rel="shortcut icon" href="images/favicon_gwsetup.png"\>
+
+</head>
+
+<body background="images/gwback.jpg">
+
+<div style="background:url('images/gwlogo.png') no-repeat left top; text-align:center; height:95px; line-height:95px; color:#2f6400;">
+<h1 style="margin:0;">Gestion et création
+</h1>
+</div>
+
+<br /><br />
+
+<div style="width: 750px; border: solid 2px #6f8301; text-align: left; overflow: auto; margin-left: auto; margin-right: auto; padding:5px;">
+  <div style="float:left; width:45%">
+    <div>
+    <span style="font-weight:bold">
+Consulter...
+    </span>
+<ul>
+
+<li><a href="gwsetup?lang=fr;v=list.htm">les généalogie existantes</a>
+
+<li><a href="gwsetup?lang=fr;v=traces.htm">l'historique des erreurs et statistiques</a>
+
+</ul>
+    </div>
+    <div>
+    <span style="font-weight:bold">
+Sauvegarder
+    </span>
+<ul>
+
+<li>un <a href="gwsetup?lang=fr;v=gwb2ged.htm">fichier GEDCOM</a>
+
+<li>un <a href="gwsetup?lang=fr;v=gwu.htm">fichier source GeneWeb</a>
+
+</ul>
+    </div>
+  </div>
+
+  <div style="float:left; width:45%;">
+    <span style="font-weight:bold;">
+Créer une généalogie
+    </span>
+<ul>
+
+<li>&agrave; partir d'un <a
+href="gwsetup?lang=fr;v=ged2gwb.htm">fichier GEDCOM</a>
+
+<li>&agrave; partir d'un <a href="gwsetup?lang=fr;v=gwc.htm">fichier
+source GeneWeb</a>
+
+<li><a href="gwsetup?lang=fr;v=simple.htm">vide (gwc)</a>
+
+
+<li>&agrave; partir d'un <a
+href="gwsetup?lang=fr;v=ged2gwb2.htm">fichier GEDCOM (ged2gwb2)</a>
+
+<li>&agrave; partir d'un <a href="gwsetup?lang=fr;v=gwc2.htm">fichier
+source GeneWeb (gwc2)</a>
+
+<li><a href="gwsetup?lang=fr;v=simple2.htm">vide (gwc2)</a>
+</ul>
+  </div>
+
+</div>
+
+<br /><hr /><br />
+
+<div>
+<div style="float:left;">
+<span>
+Options avancées
+</span>
+<ul>
+<li>le <a href="gwsetup?lang=fr;v=cleanup.htm">nettoyage</a>
+
+<li>le <a href="gwsetup?lang=fr;v=rename.htm">renommage</a>
+
+<li>la <a href="gwsetup?lang=fr;v=delete.htm">suppression</a>
+
+<li>la <a href="gwsetup?lang=fr;v=merge.htm">fusion de g&eacute;n&eacute;alogies</a>
+
+<li>la <a href="gwsetup?lang=fr;v=save.htm">sauvegarde et restauration</a>
+
+<li>l'<a href="gwsetup?lang=fr;v=consang.htm">initialisation des
+consanguinit&eacute;s</a>
+
+<li><a href="gwsetup?lang=fr;v=update_nldb.htm">Mise à jour des liens fiche/chronique familiale</a> (update_nldb)
+
+</ul>
+</div>
+
+<div style="float:left;">
+<span>
+Configurer
+</span>
+<ul>
+
+<li>les param&egrave;tres d'une <a href="gwsetup?lang=fr;v=gwf.htm">base
+de donn&eacute;es</a>
+
+<li>les param&egrave;tres du <a href="gwd?lang=fr;v=gwd.htm">service
+gwd</a>
+
+</ul>
+</div>
+
+</div>
+
+<p style="clear:both"></p>
+
+<p>
+
+Vous pouvez &eacute;galement consulter la <a
+href="http://opensource.geneanet.org/projects/geneweb/wiki/fr_home" target="_blank">documentation</a> compl&egrave;te de
+<b><font color=#2f6400>GeneWeb</font></b>.
+
+<br /><br />
+<div style="float: left; align: center;">
+<span>
+Afficher en :
+</span>
+<a href="de">Deutsch</a>
+<a href="en">English</a>
+<a href="es">Espa&ntilde;ol</a>
+<a href="fr">Fran&ccedil;ais</a>
+<a href="it">Italiano</a>
+<a href="lv">Latviesu</a>
+<a href="sv">Svenska</a>
+</div>
+
+<br />
+<div id="footer">
+<hr />
+<div>
+<em>
+<a href="http://opensource.geneanet.org/projects/geneweb/"><img src="images/logo_bas.png" align="absmiddle" style = "border: 0" /></a> Version 6.08 Copyright &copy 1998-2012
+</em>
+</div>
+</div>
+</body>
+</html>

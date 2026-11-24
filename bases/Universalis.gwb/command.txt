@@ -1,0 +1,1 @@
+..\gw\ged2gwb -fne '' -f C:\Users\amaur\Documents\Généalogie\geneweb-6.08\bases\acottenceau_2026-11-24.ged -o Universalis
